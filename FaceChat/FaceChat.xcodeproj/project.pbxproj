@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		720433761B941F8E003174BA /* NSString+FCValidationCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 720433751B941F8E003174BA /* NSString+FCValidationCheck.m */; };
+		720433791B941FB7003174BA /* NSArray+Shuffling.m in Sources */ = {isa = PBXBuildFile; fileRef = 720433781B941FB7003174BA /* NSArray+Shuffling.m */; };
+		727731311B930C7500B7EA71 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 727731301B930C7500B7EA71 /* main.m */; };
+		727731341B930C7500B7EA71 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 727731331B930C7500B7EA71 /* AppDelegate.m */; };
+		7277313A1B930C7500B7EA71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 727731381B930C7500B7EA71 /* Main.storyboard */; };
+		7277313C1B930C7500B7EA71 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7277313B1B930C7500B7EA71 /* Images.xcassets */; };
+		7277313F1B930C7500B7EA71 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7277313D1B930C7500B7EA71 /* LaunchScreen.xib */; };
+		7277314B1B930C7500B7EA71 /* FaceChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7277314A1B930C7500B7EA71 /* FaceChatTests.m */; };
+		727731591B93174E00B7EA71 /* FCLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 727731581B93174E00B7EA71 /* FCLoginViewController.m */; };
+		7277315F1B9317D300B7EA71 /* FCTileView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7277315E1B9317D300B7EA71 /* FCTileView.m */; };
+		727731781B9368F600B7EA71 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 727731721B9368F600B7EA71 /* 1.png */; };
+		727731791B9368F600B7EA71 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 727731731B9368F600B7EA71 /* 2.png */; };
+		7277317A1B9368F600B7EA71 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 727731741B9368F600B7EA71 /* 3.png */; };
+		7277317B1B9368F600B7EA71 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 727731751B9368F600B7EA71 /* 4.png */; };
+		7277317C1B9368F600B7EA71 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 727731761B9368F600B7EA71 /* 5.png */; };
+		7277317D1B9368F600B7EA71 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 727731771B9368F600B7EA71 /* 6.png */; };
+		72FB7EC11B9392D4005F1AA7 /* HockeySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72FB7EBD1B9392D3005F1AA7 /* HockeySDK.framework */; };
+		72FB7EC21B9392D4005F1AA7 /* HockeySDK.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 72FB7EBF1B9392D4005F1AA7 /* HockeySDK.xcconfig */; };
+		72FB7EC31B9392D4005F1AA7 /* HockeySDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 72FB7EC01B9392D4005F1AA7 /* HockeySDKResources.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		727731451B930C7500B7EA71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 727731231B930C7500B7EA71 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7277312A1B930C7500B7EA71;
+			remoteInfo = FaceChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		720433741B941F8E003174BA /* NSString+FCValidationCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FCValidationCheck.h"; sourceTree = "<group>"; };
+		720433751B941F8E003174BA /* NSString+FCValidationCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FCValidationCheck.m"; sourceTree = "<group>"; };
+		720433771B941FB7003174BA /* NSArray+Shuffling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Shuffling.h"; sourceTree = "<group>"; };
+		720433781B941FB7003174BA /* NSArray+Shuffling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Shuffling.m"; sourceTree = "<group>"; };
+		7277312B1B930C7500B7EA71 /* FaceChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7277312F1B930C7500B7EA71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		727731301B930C7500B7EA71 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		727731321B930C7500B7EA71 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		727731331B930C7500B7EA71 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		727731391B930C7500B7EA71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7277313B1B930C7500B7EA71 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7277313E1B930C7500B7EA71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		727731441B930C7500B7EA71 /* FaceChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FaceChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		727731491B930C7500B7EA71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7277314A1B930C7500B7EA71 /* FaceChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceChatTests.m; sourceTree = "<group>"; };
+		727731571B93174D00B7EA71 /* FCLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCLoginViewController.h; sourceTree = "<group>"; };
+		727731581B93174E00B7EA71 /* FCLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCLoginViewController.m; sourceTree = "<group>"; };
+		7277315D1B9317D300B7EA71 /* FCTileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCTileView.h; sourceTree = "<group>"; };
+		7277315E1B9317D300B7EA71 /* FCTileView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCTileView.m; sourceTree = "<group>"; };
+		7277316F1B935C4400B7EA71 /* Lobster 1.3.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lobster 1.3.otf"; sourceTree = "<group>"; };
+		727731701B935C5500B7EA71 /* Lato-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Regular.ttf"; sourceTree = "<group>"; };
+		727731711B935DBB00B7EA71 /* Lato-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Medium.ttf"; sourceTree = "<group>"; };
+		727731721B9368F600B7EA71 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		727731731B9368F600B7EA71 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		727731741B9368F600B7EA71 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		727731751B9368F600B7EA71 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		727731761B9368F600B7EA71 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		727731771B9368F600B7EA71 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		7277317E1B936F6C00B7EA71 /* MetroScript Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MetroScript Regular.otf"; sourceTree = "<group>"; };
+		7277317F1B93723100B7EA71 /* Lato-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Light.ttf"; sourceTree = "<group>"; };
+		727731801B9372C500B7EA71 /* Lato-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Thin.ttf"; sourceTree = "<group>"; };
+		727731811B93734900B7EA71 /* Lato-Hairline.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lato-Hairline.ttf"; sourceTree = "<group>"; };
+		72FB7EBD1B9392D3005F1AA7 /* HockeySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HockeySDK.framework; sourceTree = "<group>"; };
+		72FB7EBF1B9392D4005F1AA7 /* HockeySDK.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = HockeySDK.xcconfig; sourceTree = "<group>"; };
+		72FB7EC01B9392D4005F1AA7 /* HockeySDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HockeySDKResources.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		727731281B930C7500B7EA71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72FB7EC11B9392D4005F1AA7 /* HockeySDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		727731411B930C7500B7EA71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		720433721B941F8E003174BA /* Array Shuffling */ = {
+			isa = PBXGroup;
+			children = (
+				720433771B941FB7003174BA /* NSArray+Shuffling.h */,
+				720433781B941FB7003174BA /* NSArray+Shuffling.m */,
+			);
+			path = "Array Shuffling";
+			sourceTree = "<group>";
+		};
+		720433731B941F8E003174BA /* String Validation */ = {
+			isa = PBXGroup;
+			children = (
+				720433741B941F8E003174BA /* NSString+FCValidationCheck.h */,
+				720433751B941F8E003174BA /* NSString+FCValidationCheck.m */,
+			);
+			path = "String Validation";
+			sourceTree = "<group>";
+		};
+		727731221B930C7500B7EA71 = {
+			isa = PBXGroup;
+			children = (
+				7277312D1B930C7500B7EA71 /* FaceChat */,
+				727731471B930C7500B7EA71 /* FaceChatTests */,
+				7277312C1B930C7500B7EA71 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7277312C1B930C7500B7EA71 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7277312B1B930C7500B7EA71 /* FaceChat.app */,
+				727731441B930C7500B7EA71 /* FaceChatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7277312D1B930C7500B7EA71 /* FaceChat */ = {
+			isa = PBXGroup;
+			children = (
+				72FB7EBB1B9392C3005F1AA7 /* Frameworks */,
+				727731821B938C3E00B7EA71 /* Category */,
+				727731601B932C6700B7EA71 /* Images */,
+				727731541B93170E00B7EA71 /* Module */,
+				727731321B930C7500B7EA71 /* AppDelegate.h */,
+				727731331B930C7500B7EA71 /* AppDelegate.m */,
+				727731381B930C7500B7EA71 /* Main.storyboard */,
+				7277313B1B930C7500B7EA71 /* Images.xcassets */,
+				7277313D1B930C7500B7EA71 /* LaunchScreen.xib */,
+				7277312E1B930C7500B7EA71 /* Supporting Files */,
+			);
+			path = FaceChat;
+			sourceTree = "<group>";
+		};
+		7277312E1B930C7500B7EA71 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7277316D1B935C1C00B7EA71 /* Fonts */,
+				7277312F1B930C7500B7EA71 /* Info.plist */,
+				727731301B930C7500B7EA71 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		727731471B930C7500B7EA71 /* FaceChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				7277314A1B930C7500B7EA71 /* FaceChatTests.m */,
+				727731481B930C7500B7EA71 /* Supporting Files */,
+			);
+			path = FaceChatTests;
+			sourceTree = "<group>";
+		};
+		727731481B930C7500B7EA71 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				727731491B930C7500B7EA71 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		727731541B93170E00B7EA71 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				727731551B93170E00B7EA71 /* Login */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		727731551B93170E00B7EA71 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				7277315B1B9317BB00B7EA71 /* View */,
+				727731561B93172800B7EA71 /* View Controller */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		727731561B93172800B7EA71 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				727731571B93174D00B7EA71 /* FCLoginViewController.h */,
+				727731581B93174E00B7EA71 /* FCLoginViewController.m */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		7277315B1B9317BB00B7EA71 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7277315C1B9317BB00B7EA71 /* Tile View */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7277315C1B9317BB00B7EA71 /* Tile View */ = {
+			isa = PBXGroup;
+			children = (
+				7277315D1B9317D300B7EA71 /* FCTileView.h */,
+				7277315E1B9317D300B7EA71 /* FCTileView.m */,
+			);
+			path = "Tile View";
+			sourceTree = "<group>";
+		};
+		727731601B932C6700B7EA71 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				727731721B9368F600B7EA71 /* 1.png */,
+				727731731B9368F600B7EA71 /* 2.png */,
+				727731741B9368F600B7EA71 /* 3.png */,
+				727731751B9368F600B7EA71 /* 4.png */,
+				727731761B9368F600B7EA71 /* 5.png */,
+				727731771B9368F600B7EA71 /* 6.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		7277316D1B935C1C00B7EA71 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				727731801B9372C500B7EA71 /* Lato-Thin.ttf */,
+				727731701B935C5500B7EA71 /* Lato-Regular.ttf */,
+				7277317F1B93723100B7EA71 /* Lato-Light.ttf */,
+				727731711B935DBB00B7EA71 /* Lato-Medium.ttf */,
+				727731811B93734900B7EA71 /* Lato-Hairline.ttf */,
+				7277316F1B935C4400B7EA71 /* Lobster 1.3.otf */,
+				7277317E1B936F6C00B7EA71 /* MetroScript Regular.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		727731821B938C3E00B7EA71 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				720433721B941F8E003174BA /* Array Shuffling */,
+				720433731B941F8E003174BA /* String Validation */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		72FB7EBB1B9392C3005F1AA7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72FB7EBC1B9392D3005F1AA7 /* HockeySDK.embeddedframework */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		72FB7EBC1B9392D3005F1AA7 /* HockeySDK.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				72FB7EBD1B9392D3005F1AA7 /* HockeySDK.framework */,
+				72FB7EBE1B9392D4005F1AA7 /* Resources */,
+			);
+			name = HockeySDK.embeddedframework;
+			path = "HockeySDK-iOS/HockeySDK.embeddedframework";
+			sourceTree = SOURCE_ROOT;
+		};
+		72FB7EBE1B9392D4005F1AA7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				72FB7EBF1B9392D4005F1AA7 /* HockeySDK.xcconfig */,
+				72FB7EC01B9392D4005F1AA7 /* HockeySDKResources.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7277312A1B930C7500B7EA71 /* FaceChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7277314E1B930C7500B7EA71 /* Build configuration list for PBXNativeTarget "FaceChat" */;
+			buildPhases = (
+				727731271B930C7500B7EA71 /* Sources */,
+				727731281B930C7500B7EA71 /* Frameworks */,
+				727731291B930C7500B7EA71 /* Resources */,
+				72FB7EBA1B939270005F1AA7 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FaceChat;
+			productName = FaceChat;
+			productReference = 7277312B1B930C7500B7EA71 /* FaceChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		727731431B930C7500B7EA71 /* FaceChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 727731511B930C7500B7EA71 /* Build configuration list for PBXNativeTarget "FaceChatTests" */;
+			buildPhases = (
+				727731401B930C7500B7EA71 /* Sources */,
+				727731411B930C7500B7EA71 /* Frameworks */,
+				727731421B930C7500B7EA71 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				727731461B930C7500B7EA71 /* PBXTargetDependency */,
+			);
+			name = FaceChatTests;
+			productName = FaceChatTests;
+			productReference = 727731441B930C7500B7EA71 /* FaceChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		727731231B930C7500B7EA71 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = glasslo;
+				TargetAttributes = {
+					7277312A1B930C7500B7EA71 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					727731431B930C7500B7EA71 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 7277312A1B930C7500B7EA71;
+					};
+				};
+			};
+			buildConfigurationList = 727731261B930C7500B7EA71 /* Build configuration list for PBXProject "FaceChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 727731221B930C7500B7EA71;
+			productRefGroup = 7277312C1B930C7500B7EA71 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7277312A1B930C7500B7EA71 /* FaceChat */,
+				727731431B930C7500B7EA71 /* FaceChatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		727731291B930C7500B7EA71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7277313A1B930C7500B7EA71 /* Main.storyboard in Resources */,
+				7277317B1B9368F600B7EA71 /* 4.png in Resources */,
+				727731781B9368F600B7EA71 /* 1.png in Resources */,
+				7277317D1B9368F600B7EA71 /* 6.png in Resources */,
+				727731791B9368F600B7EA71 /* 2.png in Resources */,
+				7277317A1B9368F600B7EA71 /* 3.png in Resources */,
+				72FB7EC21B9392D4005F1AA7 /* HockeySDK.xcconfig in Resources */,
+				72FB7EC31B9392D4005F1AA7 /* HockeySDKResources.bundle in Resources */,
+				7277317C1B9368F600B7EA71 /* 5.png in Resources */,
+				7277313F1B930C7500B7EA71 /* LaunchScreen.xib in Resources */,
+				7277313C1B930C7500B7EA71 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		727731421B930C7500B7EA71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		72FB7EBA1B939270005F1AA7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "FILE=\"${SRCROOT}/HockeySDK-iOS/BuildAgent\"\nif [ -f \"$FILE\" ]; then\n\"$FILE\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		727731271B930C7500B7EA71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				727731591B93174E00B7EA71 /* FCLoginViewController.m in Sources */,
+				7277315F1B9317D300B7EA71 /* FCTileView.m in Sources */,
+				727731341B930C7500B7EA71 /* AppDelegate.m in Sources */,
+				720433761B941F8E003174BA /* NSString+FCValidationCheck.m in Sources */,
+				727731311B930C7500B7EA71 /* main.m in Sources */,
+				720433791B941FB7003174BA /* NSArray+Shuffling.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		727731401B930C7500B7EA71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7277314B1B930C7500B7EA71 /* FaceChatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		727731461B930C7500B7EA71 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7277312A1B930C7500B7EA71 /* FaceChat */;
+			targetProxy = 727731451B930C7500B7EA71 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		727731381B930C7500B7EA71 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				727731391B930C7500B7EA71 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7277313D1B930C7500B7EA71 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7277313E1B930C7500B7EA71 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7277314C1B930C7500B7EA71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7277314D1B930C7500B7EA71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7277314F1B930C7500B7EA71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iOS Development: SATISH NERLEKAR (2M68V847T6)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HockeySDK-iOS/HockeySDK.embeddedframework",
+				);
+				INFOPLIST_FILE = FaceChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8fdca831-1c13-401e-82ec-229c57f12715";
+			};
+			name = Debug;
+		};
+		727731501B930C7500B7EA71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: SATISH NERLEKAR (3P26ZA635L)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/HockeySDK-iOS/HockeySDK.embeddedframework",
+				);
+				INFOPLIST_FILE = FaceChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "532aafc5-a547-45a8-a4c3-76c09b874113";
+			};
+			name = Release;
+		};
+		727731521B930C7500B7EA71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FaceChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FaceChat.app/FaceChat";
+			};
+			name = Debug;
+		};
+		727731531B930C7500B7EA71 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FaceChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FaceChat.app/FaceChat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		727731261B930C7500B7EA71 /* Build configuration list for PBXProject "FaceChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7277314C1B930C7500B7EA71 /* Debug */,
+				7277314D1B930C7500B7EA71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7277314E1B930C7500B7EA71 /* Build configuration list for PBXNativeTarget "FaceChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7277314F1B930C7500B7EA71 /* Debug */,
+				727731501B930C7500B7EA71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		727731511B930C7500B7EA71 /* Build configuration list for PBXNativeTarget "FaceChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				727731521B930C7500B7EA71 /* Debug */,
+				727731531B930C7500B7EA71 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 727731231B930C7500B7EA71 /* Project object */;
+}
